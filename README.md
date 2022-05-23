@@ -30,9 +30,10 @@ Luego de abrir ```WINDOW.py```, ejecute el archivo en la terminal y se abrirá l
 
 ## Reglas para el análisis 
 -	Las palabras reservadas están creadas en español.
--	Las palabras reservadas deben ser declaradas en  MAYÚSCULAS, por ejemplo: ```SI, SINO, ENTONCES```.
+-	Las palabras reservadas deben ser declaradas en  MAYÚSCULAS, por ejemplo: ```: SI, ENTONCES, CONTRARIO, CICLO, DECF```.
 -	La declaración de variables o cadenas de texto serán declaradas en MINÚSCULAS, por ejemplo: ```auto, hola mundo```
 -	El programa detectará caracteres no válidos y los reportará.
+-	-•	No es necesario el declarar el tipo de variable ya que el programa detectará sí es ENTERO o TEXTO.
 
 ## Manejo de errores
 - Si se encuentra un carácter incorrecto durante el análisis, la tokenización continuará. Sin embargo, para manejar los errores de análisis léxico que se producen cuando se detectan caracteres ilegales, el método de ```error()``` recibe el token inválido de la cadena de texto analizada, lo aisla y guarda un registro del error mientras en analizador contiene y ejecuta todo el texto restante sin errores. Es decir, este manejador de errores mira este texto y podrá saltarlo sin detener la ejecución mientras archiva los errores.
