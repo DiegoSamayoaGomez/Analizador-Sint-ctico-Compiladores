@@ -46,5 +46,5 @@ Luego de abrir ```WINDOW.py```, ejecute el archivo en la terminal y se abrirá l
 - Las cadenas de texto son impresas entre comillas.
 - El analizador sintáctico recibe una cadena vacía en la interfaz e imprime un error predeterminado cada vez que se presiona, dicho error no afecta el resultado del análisis.
 
-##Código de Prueba
+## Código de Prueba
 Dentro del archivo ```Pruebas.txt``` (incluido en el repositorio) puede encontrar distintos ejemplos.
