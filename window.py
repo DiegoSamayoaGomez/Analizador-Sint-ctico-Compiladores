@@ -9,6 +9,9 @@ from sly import Parser
 #Función para botones sin programar1
 def btn_clicked():
     print("Botón sin uso")
+#Test commit
+
+
 
 #Envío de entrada de texto para ser analizado
 def analizarBtn():
