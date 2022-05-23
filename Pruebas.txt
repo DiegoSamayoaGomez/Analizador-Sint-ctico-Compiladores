@@ -1,0 +1,54 @@
+#Declaracion de variables
+
+uno = 1
+uno
+
+letra = "hola mundo"
+letra
+
+dos = 2
+dos
+
+#Operaciones de variables
+uno = 1
+dos = 2 
+suma = uno + dos
+suma
+
+#Condicionales
+
+a = 10
+rs=""
+SI a == 10 ENTONCES rs = 1+1 CONTRARIO rs = 2+2
+rs
+
+b="entonces"
+c="contrario"
+test=""
+a = 10
+SI a == 10 ENTONCES test = b CONTRARIO test = c 
+test
+
+a=10
+SI a == 10 ENTONCES a = a * 2 CONTRARIO a = a * 5
+a
+
+
+#Ciclos
+
+a="Compiladores"
+CICLO x = 0 HACIA 5 ENTONCES a
+
+CICLO a = 0 HACIA 5 ENTONCES a+1
+
+
+
+#Funciones
+
+a="Funcion" 
+DECF test() ->  a
+test()
+
+DECF test() -> CICLO x = 0 HACIA 10 ENTONCES SI x == 5 ENTONCES x * 100 CONTRARIO x
+test()
+
